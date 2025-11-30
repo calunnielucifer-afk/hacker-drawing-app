@@ -1,0 +1,20 @@
+# Git commands for uploading to GitHub
+# Esegui questi comandi nella cartella del progetto
+
+# Inizializza repository
+git init
+
+# Aggiungi remote
+git remote add origin https://github.com/TUO_USERNAME/hacker-drawing-app.git
+
+# Aggiungi tutti i file
+git add .
+
+# Primo commit
+git commit -m "🎨 Initial commit - Hacker Drawing App v2.0"
+
+# Push su GitHub
+git push -u origin main
+
+# Se hai problemi, forza il push:
+# git push -u origin main --force
