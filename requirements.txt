@@ -1,7 +1,10 @@
 Flask==2.3.3
 opencv-python==4.8.1.78
 numpy==1.24.3
-scikit-image==0.19.3  # Versione più vecchia
-Pillow==9.5.0          # Versione più stabile
-setuptools==68.0.0     # Fix setuptools
-wheel==0.41.0          # Supporto wheel
+scikit-image==0.19.3
+Pillow==9.5.0
+Flask-Cors==4.0.0
+Werkzeug==2.3.7
+requests==2.31.0
+setuptools==68.0.0
+wheel==0.41.0
